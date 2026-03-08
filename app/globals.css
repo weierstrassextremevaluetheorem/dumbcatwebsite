@@ -1,0 +1,47 @@
+:root {
+  --paper: #f4f1eb;
+  --paper-shadow: #ebe4dc;
+  --ink: #2f2a31;
+  --muted: #8f8790;
+  --mint: #c7e7d0;
+  --lavender: #eadff0;
+  --blush: #f1cad5;
+  --banana: #f6ebaf;
+  --sky: #c9e3f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.75), transparent 32%),
+    linear-gradient(180deg, #f7f3ee 0%, #efebe4 100%);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body), "Comic Sans MS", cursive;
+  color: var(--ink);
+  background-image:
+    linear-gradient(rgba(47, 42, 49, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(47, 42, 49, 0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+button,
+textarea,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
